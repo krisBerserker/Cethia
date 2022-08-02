@@ -1,0 +1,58 @@
+@page
+@model redestro.Pages.Stagiaires.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row">
+<h1>Edit</h1>
+
+<h4>Stagiaire</h4>
+
+</div>
+<hr />
+<div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Stagiaire.ID" />
+            <div class="form-group">
+                <label asp-for="Stagiaire.Nom" class="control-label"></label>
+                <input asp-for="Stagiaire.Nom" class="form-control" />
+                <span asp-validation-for="Stagiaire.Nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stagiaire.Prenom" class="control-label"></label>
+                <input asp-for="Stagiaire.Prenom" class="form-control" />
+                <span asp-validation-for="Stagiaire.Prenom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stagiaire.email" class="control-label"></label>
+                <input asp-for="Stagiaire.email" class="form-control" />
+                <span asp-validation-for="Stagiaire.email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stagiaire.telephone" class="control-label"></label>
+                <input asp-for="Stagiaire.telephone" class="form-control" />
+                <span asp-validation-for="Stagiaire.telephone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stagiaire.DateInscription" class="control-label"></label>
+                <input asp-for="Stagiaire.DateInscription" class="form-control" />
+                <span asp-validation-for="Stagiaire.DateInscription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

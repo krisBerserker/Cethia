@@ -1,0 +1,54 @@
+@page
+@model redestro.Pages.Marches.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Marche[0].Libelle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marche[0].Budget)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marche[0].DateDebut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marche[0].Instructeur)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Marche) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Libelle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Budget)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateDebut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instructeur.Nom)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.MarcheId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.MarcheId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.MarcheId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

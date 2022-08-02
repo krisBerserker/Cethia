@@ -1,0 +1,48 @@
+@page "{id:int?}"
+@model redestro.Pages.Instructeurs.IndexModel
+
+@{
+    ViewData["Title"] = "Formateurs";
+}
+
+<h1>Formateurs</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+         <tr>
+            <th>Nom</th>
+            <th>Prenom </th>
+            <th>Embauche le </th>
+            <th>Email</th>
+            <th>Telephone</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Instructeur) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telephone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateEmbauche)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+   </table>

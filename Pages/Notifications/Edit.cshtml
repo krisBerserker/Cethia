@@ -1,0 +1,50 @@
+@page
+@model redestro.Pages.Notifications.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Notification</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Notification.ID" />
+            <div class="form-group">
+                <label asp-for="Notification.Contenu" class="control-label"></label>
+                <input asp-for="Notification.Contenu" class="form-control" />
+                <span asp-validation-for="Notification.Contenu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notification.email" class="control-label"></label>
+                <input asp-for="Notification.email" class="form-control" />
+                <span asp-validation-for="Notification.email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notification.telephone" class="control-label"></label>
+                <input asp-for="Notification.telephone" class="form-control" />
+                <span asp-validation-for="Notification.telephone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notification.DateEnvoi" class="control-label"></label>
+                <input asp-for="Notification.DateEnvoi" class="form-control" />
+                <span asp-validation-for="Notification.DateEnvoi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

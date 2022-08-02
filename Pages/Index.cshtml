@@ -1,0 +1,113 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/redestro.styles.css" asp-append-version="true" />
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="~/stagiaires.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Les stagiaires</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+            <div class="card-body">
+              <p class="card-text">Ici vous pouvez Consulter, Ajouter et Modifier des informations concernant les stagiaires. </p>
+              <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Stagiaires/Index">View </a></button>
+                </div>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" ><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Stagiaires/Create">new </a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="~/projets.png"  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Les taches</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+            <div class="card-body">
+              <p class="card-text">Ici vous pouvez Consulter la liste des taches en cours, les instructeurs en charge ainsi que les delais de chacune des taches.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Taches/Index">View </a></button>
+                </div>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Taches/Create">New </a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="~/instructeur.jpg" vg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Les instructeurs </title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+            <div class="card-body">
+              <p class="card-text">Ici vous trouverez toutes les informations personnelles concernants les instructeurs. </p>
+                <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Instructeurs/Index">View </a></button>
+                </div>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Instructeurs/Create">New </a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="~/marche.png"  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Les marches </title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+            <div class="card-body">
+              <p class="card-text">Gerer les details des marches gagnes par la startup.</p>
+              <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Marches/Index">View </a></button>
+                </div>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Marches/Create">new </a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="~/notification.png"  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Notifications</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+            <div class="card-body">
+              <p class="card-text">Envoyer et consulter l'historique des notifications.</p>
+              <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Notifications/Index">View </a></button>
+                </div>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Notifications/Create">New </a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="~/historique.png"  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Enrollements</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+            <div class="card-body">
+              <p class="card-text">Consulter l'hitorique des Enrollements.</p>
+              <br>
+              <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" asp-area="" asp-page="/Historique">View </a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

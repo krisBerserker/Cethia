@@ -1,0 +1,31 @@
+@page
+@model redestro.Pages.HistoriqueModel
+
+@{
+    ViewData["Title"] = "Stagiaires Body Statistics";
+}
+
+<h2>Stagiaires Body Statistics</h2>
+
+<table>
+    <tr>
+        <th>
+            Inscription Date
+        </th>
+        <th>
+            Stagiaires
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Stagiaires)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.InscriptionDate)
+            </td>
+            <td>
+                @item.StagiaireCount
+            </td>
+        </tr>
+    }
+</table>

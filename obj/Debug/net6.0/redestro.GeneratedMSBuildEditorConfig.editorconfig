@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = redestro
+build_property.RootNamespace = redestro
+build_property.ProjectDir = /home/kris/Documents/projets_kris/Cethia/test/redestro/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/kris/Documents/projets_kris/Cethia/test/redestro
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Historique.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSGlzdG9yaXF1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Instructeurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5zdHJ1Y3RldXJzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Instructeurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5zdHJ1Y3RldXJzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Instructeurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5zdHJ1Y3RldXJzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Instructeurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5zdHJ1Y3RldXJzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Instructeurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5zdHJ1Y3RldXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Marches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2hlcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Marches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2hlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Marches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2hlcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Marches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2hlcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Marches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2hlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Notifications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90aWZpY2F0aW9ucy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Notifications/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90aWZpY2F0aW9ucy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Notifications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90aWZpY2F0aW9ucy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Notifications/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90aWZpY2F0aW9ucy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Notifications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90aWZpY2F0aW9ucy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Stagiaires/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZ2lhaXJlcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Stagiaires/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZ2lhaXJlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Stagiaires/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZ2lhaXJlcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Stagiaires/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZ2lhaXJlcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Stagiaires/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZ2lhaXJlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Taches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFjaGVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Taches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFjaGVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Taches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFjaGVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Taches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFjaGVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Taches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFjaGVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kris/Documents/projets_kris/Cethia/test/redestro/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j43qqslf8m

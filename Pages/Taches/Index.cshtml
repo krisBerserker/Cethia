@@ -1,0 +1,48 @@
+@page
+@model redestro.Pages.Taches.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tache[0].Libelle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tache[0].Priorite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tache[0].Marche)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Tache) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Libelle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Priorite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marche.MarcheId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.TacheID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.TacheID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.TacheID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
